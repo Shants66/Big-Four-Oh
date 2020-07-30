@@ -1,0 +1,369 @@
+body {
+  font-family: cursive;
+  margin: 0;
+}
+
+.nvbar {
+  overflow: hidden;
+  background-color: black;
+  width: 100%;
+  padding: 0;
+}
+
+.nvbar a {
+  float: left;
+  display: block;
+  color: #A08C5B;
+  font-family: times new roman;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 15px 15px;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+.nvbar a.right {
+  float:right;
+  margin-right: 5px;
+}
+
+.nvbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+img {
+  display: grid;
+  padding: 0px;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.txtimage {
+  position: relative;
+  width: 100%;
+}
+
+.pageimage {
+  position: relative;
+  width: 80%;
+  padding: 30px;
+  margin-left: 120px;
+}
+
+.contactimage {
+  position: relative;
+  width: 90%;
+  padding: 30px;
+  margin-left: 50px;
+}
+
+#textpart {
+  color: blue;
+  font-size: 100px;
+  padding: 8px 8px;
+  position: center;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate (-50%, -50%);
+  text-shadow: 10px 10px 15px black;
+  text-decoration-color: black;
+}
+
+h1 {
+  font-family: lato;
+  font-weight: lighter;
+  font-size: 5.5em;
+  color: #a67c00;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: lato;
+  font-weight: lighter;
+  font-size: 5.5em;
+  color: coral;
+  padding-left: 50px;
+  padding-top: 22px;
+  padding-bottom: 13px;
+}
+
+
+h3 {
+  font-family: lato;
+  font-weight: lighter;
+  font-size: 2em;
+  color: #a67c00;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+h4 {
+  font-family: lato;
+  font-weight: lighter;
+  font-size: 1.5em;
+  color: #a67c00;
+  padding-top: 10px;
+}
+
+h5 {
+  font-family: lato;
+  font-weight: lighter;
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.indexcommentary {
+font-style:
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-align: left;
+  padding: 0px;
+}
+
+ul a{
+  color: black;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: lato;
+  font-weight: lighter;
+}
+
+.ps {
+  margin-bottom: 40px;
+}
+
+.ps a{
+  display: inline-block;
+  margin: 0 30px;
+  width: 80px
+  height: 80px
+  overflow: hidden;
+  border-radius: 50%
+}
+
+.ps a:hover >img{
+  filter: none;
+}
+
+.image-cropper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+	.image.full {
+	  display: block;
+		width: 300px;
+    height: 300px;
+		margin-bottom: 2em;
+	}
+
+/* coding for social media buttons */
+
+  .socialmediabuttons {
+    text-align: right;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+
+  .fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 10px;
+  height: 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* end of coding for social media buttons */
+
+/* coding for new york page */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: black;
+    padding: 15px;
+  }
+
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .row {
+    margin: 8px -16px;
+  }
+
+  /* adding padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 20px;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  /* coding for the contact page */
+
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: coral;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #ff4da6;
+  }
+
+  .contactimage {
+    width: 105%;
+    margin-left: 5px;
+  }
+
+  /* Style the container/contact section */
+  .contactcontainer {
+    /* border-radius: 5px; */
+    background-color: #ffe6f2;
+    padding: 50px;
+  }
+
+  /* Create two columns that float next to eachother */
+  .contactcolumn {
+    float: center;
+    width: 50%;
+    margin-top: 6px;
+    padding: 10px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .contactcolumn, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  /* end of coding for the contact page */
+
+  /* coding for the about page */
+
+  /* Style the container/contact section */
+  .aboutcontainer {
+    /* border-radius: 5px; */
+    background-color: #ffe6f2;
+    padding: 30px;
+  }
+
+  /* Content */
+  .aboutcontent {
+    background-color: coral;
+    padding: 20px;
+  }
+
+  /* Create two columns that float next to eachother */
+  .aboutcolumn {
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    padding: 40px;
+  }
+
+  .aboutimage {
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+
+  .aboutimage:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
+
+  /* end of coding for the about page */
